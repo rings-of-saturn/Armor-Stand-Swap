@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "armor_stand_swap",
+  "version": "${version}",
+  "name": "Armor Stand Swap",
+  "description": "Halves the amount of food you need to eat!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/armor_stand_swap/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "rings_of_saturn.github.io.armor_stand_swap.Armor_stand_swap.ArmorStandSwap"
+    ]
+  },
+  "mixins": [
+    "armor_stand_swap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
