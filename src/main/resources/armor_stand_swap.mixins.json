@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "rings_of_saturn.github.io.armor_stand_swap.Armor_stand_swap.mixin",
+  "package": "rings_of_saturn.github.io.armor_stand_swap.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ArmorStandMixin"
   ],
   "client": [
   ],
